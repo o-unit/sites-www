@@ -1,0 +1,32 @@
+{{ "<!-- partial/sidebar.html-->" | safeHTML }}
+<aside class="w-25-l ph3-l mt4">
+  {{ if eq .Section "post" }}
+    <section class="mb4">
+      <h3 class="f4">最新の10記事</h3>
+      <ul class="list pl0">
+        {{ range first 10 (where .Site.RegularPages "Section" "post") }}
+          <li class="mb2"><a href="{{ .RelPermalink }}" class="link db blue hover-dark-gray">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+    <section class="mb4">
+      <h3 class="f4">カテゴリー</h3>
+      <ul class="list pl0">
+        {{ range .Site.Taxonomies.categories }}
+          <li class="mb2"><a href="{{ .Page.RelPermalink }}" class="link db blue hover-dark-gray">{{ .Page.Title }} ({{ .Count }})</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+  {{ else if and (eq .Section "minecraft") (.Params.sidebar) }}
+    <section class="mb4">
+      <ul class="list pl0">
+        {{ range .Site.Menus.minecraft }}
+          <li class="mb2"><a href="{{ .URL }}" class="link db blue hover-dark-gray">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </section>
+
+  {{ end }}
+</aside>

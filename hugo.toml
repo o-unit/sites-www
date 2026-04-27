@@ -1,0 +1,48 @@
+baseURL = 'https://o-unit.net/'
+defaultContentLanguage="ja"
+locale = 'ja'
+title = 'o-unit - ずっと建築中 -'
+[frontmatter]
+  lastmod = [":git", "lastmod", ":fileModTime"]
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+[[menu.main]]
+  identifier = "minecraft"
+  name = "Minecraft"
+  url = "/minecraft/"
+  weight = 10
+[[menu.main]]
+  identifier = "post"
+  name = "ブログ"
+  url = "/post/"
+  weight = 40
+[[menu.main]]
+  identifier = "others"
+  name = "その他"
+  url = "/others/"
+  weight = 90
+
+[[menu.minecraft]]
+  name = "サーバーへの接続方法"
+  url = "/minecraft/how-to-connect/"
+  weight = 10
+[[menu.minecraft]]
+  name = "アドオン入りワールド"
+  url = "/minecraft/bob_2057/"
+  weight = 20
+[[menu.minecraft]]
+  name = "フラットクリエイティブ"
+  url = "/minecraft/creativeflatworld/"
+  weight = 30
+[[menu.minecraft]]
+  name = "テスト中サーバ"
+  url = "/minecraft/java02/"
+  weight = 40
+
+[params.ananke.home]
+  content_alignment = "left"

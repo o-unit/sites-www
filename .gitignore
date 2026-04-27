@@ -1,0 +1,14 @@
+# Hugo build output
+public/
+resources/
+themes/
+
+# Hugo lock
+.hugo_build.lock
+
+# OS / editor
+.DS_Store
+.vscode/
+
+# Go modules (テーマ取得用)
+go.sum
