@@ -17,15 +17,20 @@ path = 'github.com/gohugo-ananke/ananke/v2'
   url = "/minecraft/"
   weight = 10
 [[menu.main]]
+  identifier = "iidx"
+  name = "IIDX"
+  url = "/iidx/"
+  weight = 20
+[[menu.main]]
+  identifier = "homeserver"
+  name = "自宅サーバ"
+  url = "/homeserver/"
+  weight = 20
+[[menu.main]]
   identifier = "post"
   name = "ブログ"
   url = "/post/"
   weight = 40
-[[menu.main]]
-  identifier = "others"
-  name = "その他"
-  url = "/others/"
-  weight = 90
 
 [[menu.minecraft]]
   name = "サーバーへの接続方法"

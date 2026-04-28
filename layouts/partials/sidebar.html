@@ -1,4 +1,5 @@
 {{ "<!-- partial/sidebar.html-->" | safeHTML }}
+{{ if or (eq .Section "post") (and (eq .Section "minecraft") (.Params.sidebar)) }}
 <aside class="w-25-l ph3-l mt4">
   {{ if eq .Section "post" }}
     <section class="mb4">
@@ -30,3 +31,4 @@
 
   {{ end }}
 </aside>
+{{ end }}
