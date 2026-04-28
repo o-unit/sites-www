@@ -18,11 +18,11 @@ tags = ["Minecraft","サーバ"]
 #### 現在稼働中のサーバ
 以下のサーバが現在稼働中になります。
 
-- アドオン入りサーバ
+- [アドオン入りサーバ]({{< ref "minecraft/bob_2507.md" >}})
   - Better  on Bedrockというアドオンをメインに、何個かアドオンを入れたBedrock版のサバイバルサーバです。
   - [詳細情報]({{< ref "minecraft/bob_2507.md" >}})
   - [マップ情報](/minecraft/bob_2507/maps/overworld/)
-- フラットクリエイティブ
+- [フラットクリエイティブ]({{< ref "minecraft/creativeflatworld.md" >}})
   - シンプルなフラットワールドで自由に建築するためのBedrock版のクリエイティブサーバです。
   - [詳細情報]({{< ref "minecraft/creativeflatworld.md" >}})
   - [マップ情報](/minecraft/creativeflatworld/maps/overworld/)

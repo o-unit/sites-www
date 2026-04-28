@@ -4,6 +4,21 @@ draft = false
 title = 'Creativeflatworld'
 categories = ["Minecraft"]
 tags = ["Minecraft","サーバ",""]
+toc = false
+sidebar = false
 +++
-コンテンツ更新中です。  
-今しばらくお待ちください。
+### フラットクリエイティブ
+フラットワールドでクリエイティブモードというだけのシンプルなサーバ。  
+みんなで楽しく建築を見せ合ったり協力して大きな建築をしたり。  
+なかよく楽しく過ごしましょう。
+<!--more-->
+#### サーバの特徴
+シンプルなフラットワールドです。  
+アドオンなどは入れていません！というのが特徴でしょうか？  
+クリエイティブだし、コマンドもOKです。  
+基本何しても良いですが、他人の建築物を勝手に破壊したらBANします。  
+
+#### サーバ / アドオンなど
+- [Minecraft Bedrock Dedicated Server](https://www.minecraft.net/ja-jp/download/server/bedrock)  
+  - Minecraft公式のサーバソフトウェア。  
+    基本的に最新版で稼働させています。  
