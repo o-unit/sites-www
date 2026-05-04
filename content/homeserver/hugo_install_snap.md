@@ -4,7 +4,7 @@ draft = false
 title = 'Hugo(snapパッケージ版)をubuntu24.04にインストール'
 categories = ["自宅サーバ"]
 tags = ["ubuntu","hugo"]
-description = "自宅サーバのubuntu24.04にspan版のhugoをインストールするまでの手順をメモしました。いわゆる自分用メモです。"
+summary = "自宅サーバのubuntu24.04にspan版のhugoをインストールするまでの手順をメモしました。いわゆる自分用メモです。"
 +++
 
 > 当記事はchatGPTの回答をベースに多少の修正を加えて作成されました。
