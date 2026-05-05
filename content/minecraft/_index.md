@@ -21,12 +21,12 @@ tags = ["Minecraft","サーバ"]
 - [アドオン入りサーバ]({{< ref "minecraft/bob_2507.md" >}})
   - Better  on Bedrockというアドオンをメインに、何個かアドオンを入れたBedrock版のサバイバルサーバです。
   - [詳細情報]({{< ref "minecraft/bob_2507.md" >}})
-  - [マップ情報](/minecraft/bob_2507/maps/overworld/)
+  - [マップ情報](https://minecraftmaps.o-unit.net/bob_2507/overworld/)
 - [フラットクリエイティブ]({{< ref "minecraft/creativeflatworld.md" >}})
   - シンプルなフラットワールドで自由に建築するためのBedrock版のクリエイティブサーバです。
   - [詳細情報]({{< ref "minecraft/creativeflatworld.md" >}})
-  - [マップ情報](/minecraft/creativeflatworld/maps/overworld/)
+  - [マップ情報](https://minecraftmaps.o-unit.net/creativeflatworld/overworld/)
 - [テスト中サーバ]({{< ref "minecraft/java02.md" >}})
   - エンチャントが追加されているJava版とBedrock版両方で入れるサーバです。
   - [詳細情報]({{< ref "minecraft/java02.md" >}})
-  - [マップ情報](/minecraft/java02/maps/)
+  - [マップ情報](https://minecraftmaps.o-unit.net/java02/)
