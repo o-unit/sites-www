@@ -4,7 +4,7 @@ lastmod = '2026-04-26T19:00:00+09:00'
 draft = false
 title = 'テスト中サーバ'
 categories = ["Minecraft"]
-tags = ["Minecraft","サーバ",""]
+tags = ["Minecraft","サーバ","Java版"]
 toc = false
 sidebar = false
 +++
@@ -14,6 +14,10 @@ Java版のプラグインサーバにいくつかプラグインを追加して�
 Bedrock版とのクロスプレイに対応。  
 どんなプラグインを組み合わせると楽しいかテスト中。
 <!--more-->
+#### マップ
+BlueMapによるマップ表示に対応しています。  
+[マップを表示する](https://minecraftmaps.o-unit.net/java02/)  
+
 #### バニラと異なる要素
 - エンチャントが大量に追加されています。  
   各エンチャントの情報は[ExcellentEnchantsのwiki(英語)](https://nightexpressdev.com/excellentenchants/)のEnchantment Listを参照してください。  
@@ -32,6 +36,8 @@ Bedrock版とのクロスプレイに対応。
   メインハンドを何も持たない状態でしゃがみながら金床画面を開くと専用の画面になるので、その画面でエンチャントしてください。
 
 #### サーバアプリ / プラグインなど
+- [docker-minecraft-server](https://github.com/itzg/docker-minecraft-server)
+- 簡単にMinecraftサーバが立ち上げられるDockerイメージ。
 - [Purpur](https://purpurmc.org/) version 1.21.11 build 2568
   - サーバソフトウェア。  
     bukkitから派生したPaperのさらに派生したソフトウェアで、色々細かく設定できる。
@@ -106,3 +112,5 @@ Bedrock版とのクロスプレイに対応。
     minecraftのプロトコルを各種プラグインで扱いやすくするもの？
 - [packetevents](https://modrinth.com/plugin/packetevents) 2.12.1
   - 色々なプラグインで使うライブラリ。
+
+※バージョンは26/05/10時点の情報です。
