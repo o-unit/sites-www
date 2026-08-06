@@ -168,5 +168,5 @@ GitHub PagesやCloudflare Pagesなどにアップロードすればあなたのw
 |症状|原因|
 |:--|:--|
 |/var/www に出力できない|Snapの仕様で/home 以外の書き込みが制限されてる|
-|SCSSがビルドされない<br />PostCSSが効かない|snapは外部バイナリを制限|
+|SCSSがビルドされない・PostCSSが効かない|snapは外部バイナリを制限|
 →Snap版の仕様が面倒なら公式サイトからバイナリをダウンロードするか、ソースからビルド
