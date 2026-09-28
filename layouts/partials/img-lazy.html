@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" | default "" }}
+{{ $width := .Get "width" | default "" }}
+{{ $height := .Get "height" | default "" }}
+{{ $class := .Get "class" | default "" }}
+<img src="{{ $src }}" alt="{{ $alt }}"{{ if $width }} width="{{ $width }}"{{ end }}{{ if $height }} height="{{ $height }}"{{ end }} loading="lazy" class="{{ $class }}" style="background-color:#f5f5f5">
+{{/* aspect-ratio for layout shift prevention (CSS) */}}
