@@ -12,34 +12,30 @@ ignoreImports = false
 path = 'github.com/gohugo-ananke/ananke/v2'
 
 [[menu.main]]
-  identifier = "minecraft"
-  name = "Minecraft"
-  url = "/minecraft/"
-  weight = 10
+name = "Minecraft"
+url = "/minecraft/"
+weight = 10
 [[menu.main]]
-  identifier = "iidx"
-  name = "IIDX"
-  url = "/iidx/"
-  weight = 20
+name = "IIDX"
+url = "/iidx/"
+weight = 20
 [[menu.main]]
-  identifier = "homeserver"
-  name = "自宅サーバ"
-  url = "/homeserver/"
-  weight = 20
+name = "自宅サーバ"
+url = "/homeserver/"
+weight = 20
 [[menu.main]]
-  identifier = "post"
-  name = "ブログ"
-  url = "/post/"
-  weight = 40
+name = "ブログ"
+url = "/post/"
+weight = 40
 
 [[menu.minecraft]]
   name = "サーバーへの接続方法"
   url = "/minecraft/how-to-connect/"
   weight = 10
 [[menu.minecraft]]
-  name = "アドオン入りワールド"
-  url = "/minecraft/bob_2057/"
-  weight = 20
+name = "アドオン入りワールド"
+url = "/minecraft/bob_2057/"
+weight = 20
 [[menu.minecraft]]
   name = "フラットクリエイティブ"
   url = "/minecraft/creativeflatworld/"
