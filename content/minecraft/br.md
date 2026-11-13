@@ -18,7 +18,7 @@ Bedrock Reimaginedをメインに、いくつかのアドオンを導入した�
 [マップを表示する](https://minecraftmaps.o-unit.net/br/overworld/)  
 
 #### バニラと異なる要素
-- Bedrock Reimaginedによる、コンテンツ追加([詳細はこちら]({{< ref "minecraft/betteronbedrock.md" >}}))
+- Bedrock Reimaginedによる、コンテンツ追加
   - 新規アイテムの追加
   - 新規装備の追加
   - クエストの追加

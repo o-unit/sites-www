@@ -17,7 +17,7 @@ Core Craftアドオンを導入した統合版用サーバです。
 [マップを表示する](https://minecraftmaps.o-unit.net/cc/overworld/)  
 
 #### バニラと異なる要素
-- Core Craftによる、コンテンツ追加([詳細はこちら]({{< ref "minecraft/corecraft.md" >}}))
+- Core Craftによる、コンテンツ追加
   - 新規アイテムの追加(ウェイストーン・ナイフ・バックパック・新しい食料など)
   - 新規装備の追加(魔法の杖・コルスティナイト装備・スターダスト装備など)
   - クエストの追加
