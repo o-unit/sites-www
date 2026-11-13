@@ -22,11 +22,24 @@ tags = ["Minecraft","サーバ"]
   - Better  on Bedrockというアドオンをメインに、何個かアドオンを入れたBedrock版のサバイバルサーバです。
   - [詳細情報]({{< ref "minecraft/bob_2507.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/bob_2507/overworld/)
+  - 稼働状況：{{< mcstatus id="sv1" >}}
 - [フラットクリエイティブ]({{< ref "minecraft/creativeflatworld.md" >}})
   - シンプルなフラットワールドで自由に建築するためのBedrock版のクリエイティブサーバです。
   - [詳細情報]({{< ref "minecraft/creativeflatworld.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/creativeflatworld/overworld/)
+  - 稼働状況：{{< mcstatus id="sv3" >}}
+<!-- 
+- [Bedrock Reimagined]({{< ref "minecraft/br.md" >}})
+  - Bedrock Reimaginedというアドオンをメインに、何個かアドオンを入れたサバイバルサーバです。
+  - [詳細情報]({{< ref "minecraft/br.md" >}})
+  - [マップ情報](https://minecraftmaps.o-unit.net/br/overworld/)
+- [CoreCraft]({{< ref "minecraft/cc.md" >}})
+  - CoreCraftというアドオンを導入したサバイバルサーバです。
+  - [詳細情報]({{< ref "minecraft/cc.md" >}})
+  - [マップ情報](https://minecraftmaps.o-unit.net/cc/overworld/)
+-->
 - [テスト中サーバ]({{< ref "minecraft/java02.md" >}})
   - エンチャントが追加されているJava版とBedrock版両方で入れるサーバです。
   - [詳細情報]({{< ref "minecraft/java02.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/java02/)
+  - 稼働状況：{{< mcstatus id="sv7" >}}
