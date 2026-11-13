@@ -1,0 +1,45 @@
+{{- $id := .Get "id" -}}
+<span class="mc-server-status" data-server-id="{{ $id }}">取得中...</span>
+
+{{- if not (.Page.Scratch.Get "mcstatus_script_loaded") -}}
+  {{- .Page.Scratch.Set "mcstatus_script_loaded" true -}}
+  <script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const elements = document.querySelectorAll(".mc-server-status");
+    if (elements.length === 0) return;
+
+    try {
+      // ページ読み込み時に1回だけAPIを実行（ポーリングなし）
+      const res = await fetch("/api/mcsvrstatus");
+      if (!res.ok) throw new Error("API Error");
+      const data = await res.json();
+
+      // サーバーIDをキーにした検索用マップを作成
+      const serverMap = {};
+      if (Array.isArray(data.servers)) {
+        data.servers.forEach(sv => {
+          serverMap[sv.id] = sv;
+        });
+      }
+
+      // ページ内の全ステータス表示箇所を一括更新
+      elements.forEach(el => {
+        const targetId = el.getAttribute("data-server-id");
+        const sv = serverMap[targetId];
+
+        if (!sv) {
+          el.textContent = "ステータス未登録";
+        } else if (sv.online) {
+          el.innerHTML = `🟢 現在 <strong>${sv.players}</strong> / ${sv.maxPlayers} 人プレイ中 (Ver: ${sv.version})`;
+        } else {
+          el.innerHTML = `🔴 現在オフライン（メンテナンス中）`;
+        }
+      });
+    } catch (e) {
+      elements.forEach(el => {
+        el.textContent = "⚪ ステータス取得失敗";
+      });
+    }
+  });
+  </script>
+{{- end -}}
