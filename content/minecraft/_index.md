@@ -42,4 +42,4 @@ tags = ["Minecraft","サーバ"]
   - エンチャントが追加されているJava版とBedrock版両方で入れるサーバです。
   - [詳細情報]({{< ref "minecraft/java02.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/java02/)
-  - 稼働状況：{{< mcstatus id="sv7" >}}
+  - 稼働状況：{{< mcstatus id="sv6" >}}
