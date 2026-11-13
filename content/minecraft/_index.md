@@ -28,16 +28,16 @@ tags = ["Minecraft","サーバ"]
   - [詳細情報]({{< ref "minecraft/creativeflatworld.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/creativeflatworld/overworld/)
   - 稼働状況：{{< mcstatus id="sv3" >}}
-<!-- 
 - [Bedrock Reimagined]({{< ref "minecraft/br.md" >}})
   - Bedrock Reimaginedというアドオンをメインに、何個かアドオンを入れたサバイバルサーバです。
   - [詳細情報]({{< ref "minecraft/br.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/br/overworld/)
+  - 稼働状況：{{< mcstatus id="sv2" >}}
 - [CoreCraft]({{< ref "minecraft/cc.md" >}})
   - CoreCraftというアドオンを導入したサバイバルサーバです。
   - [詳細情報]({{< ref "minecraft/cc.md" >}})
   - [マップ情報](https://minecraftmaps.o-unit.net/cc/overworld/)
--->
+  - 稼働状況：{{< mcstatus id="sv4" >}}
 - [テスト中サーバ]({{< ref "minecraft/java02.md" >}})
   - エンチャントが追加されているJava版とBedrock版両方で入れるサーバです。
   - [詳細情報]({{< ref "minecraft/java02.md" >}})
